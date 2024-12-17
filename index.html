@@ -19,14 +19,184 @@
             <img src="assets/logo.jpg" alt="AptiCare Logo">
             <h1 class="titlehome">AptiCare</h1>
         </div>
-        
-        <div class="nav-links" id="navLinks">
+
+	     <div class="nav-links">
             <a href="#">Home</a>
-            <a href="#">Diseases</a>
+            <a href="#" class="dropdown-toggle" onclick="toggleDropdown()">Diseases</a>
             <a href="blogs.html">Blogs and News</a>
             <a href="about.html">About Us</a>
         </div>
-	               
+        
+        <div class="dropdown-popup">
+           <div class="popup-tabs">
+                <button class="tab-button active">Specialists</button>
+                <button class="tab-button">Procedures</button>
+            </div>
+            <div class="popup-content active">
+                <div class="grid-container">
+                    <!-- Specialists Grid -->
+                    <div class="grid-column">
+                     <ul>
+                        <li><a href="/specialization/general-physician" class="dropdown-item" title="General Physician">General Physician</a></li>
+                        <li><a href="/specialization/cardiologist" class="dropdown-item" title="Cardiologist">Cardiologist</a></li>
+                        <li><a href="/specialization/neurologist" class="dropdown-item" title="Neurologist">Neurologist</a></li>
+                        <li><a href="/specialization/orthopedic-surgeon" class="dropdown-item" title="Orthopedic Surgeon">Orthopedic Surgeon</a></li>
+                        <li><a href="/specialization/pediatrician" class="dropdown-item" title="Pediatrician">Pediatrician</a></li>
+                        <li><a href="/specialization/dermatologist" class="dropdown-item" title="Dermatologist">Dermatologist</a></li>
+                        <li><a href="/specialization/gynecologist-obstetrician" class="dropdown-item" title="Gynecologist/Obstetrician">Gynecologist/Obstetrician</a></li>
+                     </ul>
+                    </div>
+                    <div class="grid-column">
+                     <ul>
+                        <li><a href="/specialization/ophthalmologist" class="dropdown-item" title="Ophthalmologist">Ophthalmologist</a></li>
+                        <li><a href="/specialization/ent-specialist" class="dropdown-item" title="ENT Specialist">ENT Specialist</a></li>
+                        <li><a href="/specialization/psychiatrist" class="dropdown-item" title="Psychiatrist">Psychiatrist</a></li>
+                        <li><a href="/specialization/gastroenterologist" class="dropdown-item" title="Gastroenterologist">Gastroenterologist</a></li>
+                        <li><a href="/specialization/urologist" class="dropdown-item" title="Urologist">Urologist</a></li>
+                        <li><a href="/specialization/oncologist" class="dropdown-item" title="Oncologist">Oncologist</a></li>
+                        <li><a href="/specialization/pulmonologist" class="dropdown-item" title="Pulmonologist">Pulmonologist</a></li>
+                      
+                     </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/specialization/endocrinologist" class="dropdown-item" title="Endocrinologist">Endocrinologist</a></li>
+                            <li><a href="/specialization/nephrologist" class="dropdown-item" title="Nephrologist">Nephrologist</a></li>
+                            <li><a href="/specialization/rheumatologist" class="dropdown-item" title="Rheumatologist">Rheumatologist</a></li>
+                            <li><a href="/specialization/radiologist" class="dropdown-item" title="Radiologist">Radiologist</a></li>
+                            <li><a href="/specialization/anesthesiologist" class="dropdown-item" title="Anesthesiologist">Anesthesiologist</a></li>
+                            <li><a href="/specialization/general-surgeon" class="dropdown-item" title="General Surgeon">General Surgeon</a></li>
+                            <li><a href="/specialization/cardiothoracic-surgeon" class="dropdown-item" title="Cardiothoracic Surgeon">Cardiothoracic Surgeon</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/specialization/neurosurgeon" class="dropdown-item" title="Neurosurgeon">Neurosurgeon</a></li>
+                            <li><a href="/specialization/plastic-surgeon" class="dropdown-item" title="Plastic Surgeon">Plastic Surgeon</a></li>
+                            <li><a href="/specialization/pediatric-surgeon" class="dropdown-item" title="Pediatric Surgeon">Pediatric Surgeon</a></li>
+                            <li><a href="/specialization/phlebotomist" class="dropdown-item" title="Phlebotomist">Phlebotomist</a></li>
+                            <li><a href="/specialization/lab-technician" class="dropdown-item" title="Lab Technician">Lab Technician</a></li>
+                            <li><a href="/specialization/pathologist" class="dropdown-item" title="Pathologist">Pathologist</a></li>
+                            <li><a href="/specialization/radiology-technician" class="dropdown-item" title="Radiology Technician">Radiology Technician</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/specialization/mobile-health-technician" class="dropdown-item" title="Mobile Health Technician">Mobile Health Technician</a></li>
+                            <li><a href="/specialization/physiotherapist" class="dropdown-item" title="Physiotherapist">Physiotherapist</a></li>
+                            <li><a href="/specialization/chiropractor" class="dropdown-item" title="Chiropractor">Chiropractor</a></li>
+                            <li><a href="/specialization/dietitian-nutritionist" class="dropdown-item" title="Dietitian/Nutritionist">Dietitian/Nutritionist</a></li>
+                            <li><a href="/specialization/podiatrist" class="dropdown-item" title="Podiatrist">Podiatrist</a></li>
+                            <li><a href="/specialization/speech-therapist" class="dropdown-item" title="Speech Therapist">Speech Therapist</a></li>
+                            <li><a href="/specialization/occupational-therapist" class="dropdown-item" title="Occupational Therapist">Occupational Therapist</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-content">
+                <div class="grid-container">
+                    <!-- Procedures Grid -->
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/procedure/hyperactive-disorder" class="dropdown-item" title="Hyperactive Disorder (ADD / ADHD)">Hyperactive Disorder (ADD / ADHD)</a></li>
+                            <li><a href="/procedure/ob-gyn-emergency" class="dropdown-item" title="OB / GYN Emergency">OB / GYN Emergency</a></li>
+                            <li><a href="/procedure/nexplanon-removal" class="dropdown-item" title="Nexplanon Removal">Nexplanon Removal</a></li>
+                            <li><a href="/procedure/pre-surgery-checkup" class="dropdown-item" title="Pre-Surgery Checkup / Pre-Surgical Clearance">Pre-Surgery Checkup / Pre-Surgical Clearance</a></li>
+                            <li><a href="/procedure/annual-physical" class="dropdown-item" title="Annual Physical">Annual Physical</a></li>
+                            <li><a href="/procedure/lgbt-care" class="dropdown-item" title="LGBT Care">LGBT Care</a></li>
+                            <li><a href="/procedure/ent-emergency" class="dropdown-item" title="ENT Emergency Visit">ENT Emergency Visit</a></li>
+                            <li><a href="/procedure/pain-medication" class="dropdown-item" title="Pain Medication Prescription">Pain Medication Prescription</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/procedure/iud-insertion" class="dropdown-item" title="IUD Insertion">IUD Insertion</a></li>
+                            <li><a href="/procedure/cortisone-shots" class="dropdown-item" title="Cortisone Shots">Cortisone Shots</a></li>
+                            <li><a href="/procedure/gastroenterology-emergency" class="dropdown-item" title="Gastroenterology Emergency">Gastroenterology Emergency</a></li>
+                            <li><a href="/procedure/dental-emergency" class="dropdown-item" title="Dental Emergency">Dental Emergency</a></li>
+                            <li><a href="/procedure/prenatal-care" class="dropdown-item" title="Prenatal Care">Prenatal Care</a></li>
+                            <li><a href="/procedure/hair-loss" class="dropdown-item" title="Hair Loss">Hair Loss</a></li>
+                            <li><a href="/procedure/cholecystectomy" class="dropdown-item" title="Cholecystectomy">Cholecystectomy</a></li>
+                            <li><a href="/procedure/dental-implants" class="dropdown-item" title="Dental Implants">Dental Implants</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/procedure/pcr-test" class="dropdown-item" title="PCR Test">PCR Test</a></li>
+                            <li><a href="/procedure/colposcopy" class="dropdown-item" title="Colposcopy">Colposcopy</a></li>
+                            <li><a href="/procedure/cbt" class="dropdown-item" title="Cognitive Behavioral Therapy">Cognitive Behavioral Therapy</a></li>
+                            <li><a href="/procedure/pap-smear" class="dropdown-item" title="Pap Smear">Pap Smear</a></li>
+                            <li><a href="/procedure/cbc-blood-test" class="dropdown-item" title="CBC Blood Test">CBC Blood Test</a></li>
+                            <li><a href="/procedure/biopsy" class="dropdown-item" title="Biopsy">Biopsy</a></li>
+                            <li><a href="/procedure/health-screening" class="dropdown-item" title="Health Screening">Health Screening</a></li>
+                            <li><a href="/procedure/psa" class="dropdown-item" title="PSA">PSA</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/procedure/ldl-cholesterol" class="dropdown-item" title="LDL Cholesterol">LDL Cholesterol</a></li>
+                            <li><a href="/procedure/bilirubin" class="dropdown-item" title="Bilirubin">Bilirubin</a></li>
+                            <li><a href="/procedure/creatinine" class="dropdown-item" title="Creatinine">Creatinine</a></li>
+                            <li><a href="/procedure/ferritin" class="dropdown-item" title="Ferritin">Ferritin</a></li>
+                            <li><a href="/procedure/hematocrit" class="dropdown-item" title="Hematocrit">Hematocrit</a></li>
+                            <li><a href="/procedure/emg-test" class="dropdown-item" title="Electromyography (EMG) Test">Electromyography (EMG) Test</a></li>
+                            <li><a href="/procedure/cystoscopy" class="dropdown-item" title="Cystoscopy">Cystoscopy</a></li>
+                            <li><a href="/procedure/ipl-treatment" class="dropdown-item" title="Intense Pulsed Light (IPL) Treatment">Intense Pulsed Light (IPL) Treatment</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/procedure/laser-hair-removal" class="dropdown-item" title="Laser Hair Removal">Laser Hair Removal</a></li>
+                            <li><a href="/procedure/vasectomy" class="dropdown-item" title="Vasectomy">Vasectomy</a></li>
+                            <li><a href="/procedure/hysterectomy" class="dropdown-item" title="Hysterectomy">Hysterectomy</a></li>
+                            <li><a href="/procedure/bariatric-surgery" class="dropdown-item" title="Bariatric Surgery">Bariatric Surgery</a></li>
+                            <li><a href="/procedure/lasik-eye-surgery" class="dropdown-item" title="Lasik Eye Surgery">Lasik Eye Surgery</a></li>
+                            <li><a href="/procedure/circumcision" class="dropdown-item" title="Circumcision">Circumcision</a></li>
+                            <li><a href="/procedure/wisdom-teeth-removal" class="dropdown-item" title="Wisdom Teeth Removal">Wisdom Teeth Removal</a></li>
+                            <li><a href="/procedure/cortisone-shot" class="dropdown-item" title="Cortisone Shot">Cortisone Shot</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/procedure/blepharoplasty" class="dropdown-item" title="Blepharoplasty">Blepharoplasty</a></li>
+                            <li><a href="/procedure/tonsillectomy" class="dropdown-item" title="Tonsillectomy">Tonsillectomy</a></li>
+                            <li><a href="/procedure/laminectomy" class="dropdown-item" title="Laminectomy">Laminectomy</a></li>
+                            <li><a href="/procedure/tms" class="dropdown-item" title="Transcranial Magnetic Stimulation (TMS)">Transcranial Magnetic Stimulation (TMS)</a></li>
+                            <li><a href="/procedure/massage-therapy" class="dropdown-item" title="Massage Therapy">Massage Therapy</a></li>
+                            <li><a href="/procedure/tubal-ligation" class="dropdown-item" title="Tubal Ligation">Tubal Ligation</a></li>
+                            <li><a href="/procedure/ablation" class="dropdown-item" title="Ablation">Ablation</a></li>
+                            <li><a href="/procedure/appendectomy" class="dropdown-item" title="Appendectomy">Appendectomy</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/procedure/cardiac-catheterization" class="dropdown-item" title="Cardiac Catheterization">Cardiac Catheterization</a></li>
+                            <li><a href="/procedure/hernia-surgery" class="dropdown-item" title="Hernia Surgery">Hernia Surgery</a></li>
+                            <li><a href="/procedure/x-ray" class="dropdown-item" title="X-Ray">X-Ray</a></li>
+                            <li><a href="/procedure/mammogram" class="dropdown-item" title="Mammogram">Mammogram</a></li>
+                            <li><a href="/procedure/mri" class="dropdown-item" title="MRI">MRI</a></li>
+                            <li><a href="/procedure/ultrasound" class="dropdown-item" title="Ultrasound">Ultrasound</a></li>
+                            <li><a href="/procedure/eeg" class="dropdown-item" title="EEG">EEG</a></li>
+                            <li><a href="/procedure/angiogram" class="dropdown-item" title="Angiogram">Angiogram</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-column">
+                        <ul>
+                            <li><a href="/procedure/mohs-surgery" class="dropdown-item" title="Mohs Surgery">Mohs Surgery</a></li>
+                            <li><a href="/procedure/bun-test" class="dropdown-item" title="Blood Urea Nitrogen (BUN) Test">Blood Urea Nitrogen (BUN) Test</a></li>
+                            <li><a href="/procedure/pdt" class="dropdown-item" title="Photodynamic Therapy (PDT)">Photodynamic Therapy (PDT)</a></li>
+                            <li><a href="/procedure/endoscopy" class="dropdown-item" title="Endoscopy">Endoscopy</a></li>
+                            <li><a href="/procedure/rhinoplasty" class="dropdown-item" title="Rhinoplasty">Rhinoplasty</a></li>
+                            <li><a href="/procedure/uti" class="dropdown-item" title="Urinary Tract Infection (UTI)">Urinary Tract Infection (UTI)</a></li>
+                            <li><a href="/procedure/colonoscopy" class="dropdown-item" title="Colonoscopy">Colonoscopy</a></li>
+                            <li><a href="/procedure/cataract-surgery" class="dropdown-item" title="Cataract Surgery">Cataract Surgery</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
         <div class="profile">
             <img src="assets/profile.png" alt="Profile" id="profile-icon">
             <div class="dropdown" id="profile-dropdown">
@@ -34,6 +204,9 @@
                 <a href="login.html">Login</a>
             </div>
         </div>
+
+        
+        
 
         <!-- Hamburger Icon for Mobile -->
         <div class="hamburger" id="hamburger">
