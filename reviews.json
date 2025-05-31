@@ -1,0 +1,5 @@
+[
+    { "name": "John Doe", "rating": 5, "review": "Apticare made it so easy to book my appointment. The service was quick and efficient!" },
+    { "name": "Jane Smith", "rating": 4, "review": "I love how user-friendly the website is. Booking an appointment was a breeze." },
+    { "name": "Emily Johnson", "rating": 4, "review": "Great service! I was able to find the right doctor and book an appointment in minutes." }
+]
